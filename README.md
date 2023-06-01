@@ -13,14 +13,14 @@ To install and run this project locally, follow these steps:
 2. Navigate to the project directory: `cd <project-directory>`
 3. Install dependencies: `npm install`
 4. Start the server: `npm start`
-5. The application will be accessible at `http://localhost:8000`
+5. The application will be accessible at `http://localhost:8088`
 
 ## Environment Variables
 
 Take 3  environment variables 
  1. API_KEY (get the key from weatherbit.io)
- 2. PORT
- 3. mongo_url (Mongo db Url)
+ 2. port
+ 3. mongourl (Mongo db Url)
 
 ## API Endpoints
 
@@ -28,10 +28,6 @@ Take 3  environment variables
 |-----------------------------|--------|-------------------------------------------|
 | `/`                         | GET    | Start server response                     |
 | `/current?city=cityname`    | GET    | Get current weather of the city           |
-| `/forecast?city=cityname`   | GET    | Get current 5 days weather of the city    |
-| `/user/register`            | POST   | User can Signup                           |
+| `/forecast?city=cityname`   | GET    | Get current 7 days weather of the city    |
+| `/user/signup`              | POST   | User can Signup                           |
 | `/user/login`               | POST   | User can Login                            |
-| `/save`                     | POST   | User can save their location preference   |
-| `/delete`                   | DELETE | User can delete their location preference |
-| `/savedCity`                | GET    | User can see all saved cities             |
-
