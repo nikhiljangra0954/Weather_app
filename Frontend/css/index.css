@@ -30,15 +30,16 @@ header {
     width: 100%;
     background-color:#06283D;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 20px;
     z-index: 9999;
   }
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+
   
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
   .logo a {
     color: #fff;
     font-size: 20px;
