@@ -3,7 +3,16 @@
 
 This project is a Weather application that provides various API endpoints for access the weather data from location.
 
-Go and Check it Out [Deployed-link](https://alphabin-technology-weather-app.netlify.app/).
+Go and Check it Out [Deployed-link](https://weather-app-alphabin.netlify.app/).
+
+## Instruction to Use Weather application
+
+1. First you need to signup with email and password.
+2. next it will redirect you to the login Page.
+3. Fill your Login details.
+4. after login it will redirect you to the weather website
+5. here you can search the weather of any city
+6. it will show you current weather and upcoming 6 days weather as well
 
 ## Installation
 
