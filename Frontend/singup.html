@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <h1 class="welcome">Welcome To Weather App</h1>
+    <div class="wrapper">
+        <header>Sign-up here</header>
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <input type="text" id="email" required placeholder="Email Address">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Email can't be blank</div>
+          </div>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" id="password" required placeholder="Password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <input type="submit" id="submit" value="SignUP">
+        </form>
+        <div class="sign-txt">Already a Member<a href="./index.html">Login Here</a></div>
+      </div>
+</body>
+</html>
+<script src="./Script/signup.js"></script>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./images/clear.png">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet"> -->
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#">Logo</a>
+          </div>
+          <div class="nav-links">
+            <a href="./index.html">Login</a>
+            <a href="./singup.html">Sign Up</a>
+            <a href="./WeatherApp.html">Weather</a>
+          </div>
+        </nav>
+      </header>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <select name="" id="units">
+                <option value="C">Celcius</option>
+                <option value="K">Kelvin</option>
+                <option value="F">fahrenheit</option>
+            </select>
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="weather-box">
+             <h2>Today's Weather</h2> 
+            <img src="./images/clear.png">
+            <p class="temperature">0.0  &deg;C</p>
+            <p class="description">Clouds</p>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span>0</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span>0</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div> 
+            <button id="savebtn" class="fas fa-save"></button>
+        </div> 
+            <!-- Current data -->
+        
+
+    </div>
+    <!-- Forecast data -->
+    <div class="forecastContainer">
+        <!-- Here we will fetch all 6 days forecast data -->
+        <!-- <div>
+            <h1 class="name">Name</h1>
+            <img width="100" src="./images/clear.png" alt="">
+            <h2 class="temp" >temp</h2>
+            <h2 class="des" >description</h2>
+            <h2 class="date">date</h2>
+        </div>
+        <div>
+            <h1>Name</h1>
+            <img width="100" src="./images/clear.png" alt="">
+            <h2>temp</h2>
+            <h2>description</h2>
+            <h2>date</h2>
+        </div>
+        <div>
+            <h1>Name</h1>
+            <img width="100" src="./images/clear.png" alt="">
+            
+            <h2>temp</h2>
+            <h2>description</h2>
+            <h2>date</>
+        </div> -->
+
+    </div>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+<script src="./Script/index.js"></script>
